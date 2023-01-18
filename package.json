@@ -1,0 +1,21 @@
+{
+    "name": "my-project",
+    "scripts": {
+        "dev": "parcel src/index.html",
+        "build": "parcel build src/index.html",
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "2.8.2",
+        "parcel": "^2.8.2",
+        "parcel-reporter-static-files-copy": "^1.5.0",
+        "prettier": "2.8.3"
+    },
+    "dependencies": {
+        "sass": "^1.57.1"
+    },
+    "staticFiles": {
+        "staticPath": "images",
+        "staticOutPath": "images"
+    }
+}

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: rgb(236, 225, 225);
+    font-family: cursive;
+}
+h1 {
+    color: rgb(67, 65, 65);
+    font-size: 40px;
+    max-width: 1024px;
+    margin: 40px auto;
+    text-align: center;
+}
+.reviews {
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    &_container_list {
+        max-width: 1024px;
+        margin: auto;
+       
+    }
+}
+.reviews_block {
+        width: 500px;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+        padding: 15px;
+        box-shadow: 10px 5px 5px rgb(168, 163, 163);
+
+        .img-review {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .name-review {
+            font-size: 20px;
+            color: rgb(236, 159, 171);
+        }
+        .review-text {
+            font-size: 14px;
+            color: gray;
+        }
+        .number-rating {
+            color:gray;
+            
+            .rating-review {
+                width: 20px;
+                height: 20px;
+                background-color:yellow;
+            }
+        }
+        .buttons {
+            display: flex;
+
+            &_reviews {
+                width: 30px;
+                background: transparent;
+                border-color: transparent;
+                cursor: pointer;
+
+
+                .svg-color {
+                    color:aqua;
+                }
+            }
+        }
+        .btn_surprise {
+
+            .buttons_surprise_me {
+                color: white;
+                background-color: rgb(236, 182, 200);
+                padding: 5px 8px;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+                font-weight: 600;
+            }
+        }
+
+}
+
